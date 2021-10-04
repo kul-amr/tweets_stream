@@ -12,7 +12,7 @@ The components' execution stages as :
 - Producer to send tweet as a message to kafka broker
 - Consumer to extract data from this message and store to PostgresSQL database
 - PostgreSQL database with tables to store the filtered tweets data
-- Exploratory data analysis and visualization - data_pipeline/twitter_eda.ipynb
+- Exploratory data analysis and visualization - [twitter_eda.ipynb](data_pipeline/twitter_eda.ipynb)
 
 ---WebApp---
 
