@@ -1,6 +1,10 @@
 data_pipeline/.env
+data_pipeline/env/
+env/
 .env
-data_pipeline/.png
-.png
+data_pipeline/*.png
+*.png
 .idea/
 data_pipeline/.idea/
+.ipynb_checkpoints
+data_pipeline/.ipynb_checkpoints
