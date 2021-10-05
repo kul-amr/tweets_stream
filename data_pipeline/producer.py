@@ -12,7 +12,6 @@ producer = KafkaProducer(bootstrap_servers='localhost:9092',
 
 
 def process_tweets_stream():
-
     counter = 0
 
     with requests.Session().get(TWITTER_STREAM_URL, auth=bearer_oauth, stream=True) as response:
@@ -54,14 +53,3 @@ def send_to_producer(key, val):
 
 
 process_tweets_stream()
-
-
-##hashtags - top hashtags
-##top dbs
-##top coding lang
-##languages
-##ios,android,backend,data,fullstack,frontend,devops,cloud,systems,AI,ML
-##junior/senior/manager
-##tweets having salary info
-##contract/full-time/internship
-##remote jobs sentiment analysis
